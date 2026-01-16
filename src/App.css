@@ -1,0 +1,221 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.galeria {
+  background-color: #ffe6f0;
+  padding: 30px;
+  min-height: 100vh;
+  color: black;
+}
+
+.galeria h2 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  color: black;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+* {
+  font-family: "Arial", sans-serif;
+}
+
+.app {
+  background-color: #ffe6f0;
+  min-height: 100vh;
+}
+.header {
+  background-color: transparent;
+  padding: 20px;
+}
+
+.header h1 {
+  color: black;
+}
+
+.menu button {
+  margin: 10px;
+  padding: 10px 18px;
+  background-color: #d4af37;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.menu button:hover {
+  background-color: white;
+}
+
+.contenido {
+  padding: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.img-home {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.footer {
+  background-color: transparent; /* elimina el cuadro negro */
+  color: black;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.container {
+  background-color: #ffe6f0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+
+.menu button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #d4af37;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.thalana-img {
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: black;
+}
+
+.footer {
+  margin-top: 40px;
+  color: black;
+}
+.menu button,
+.btn-carrito {
+  background-color: white;
+  border: 2px solid #d4af37;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.btn-carrito:hover {
+  background-color: #d4af37;
+  color: white;
+}
+
+.precio {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  color: black;
+  background-color: #ffe6f0;
+}
+.btn-eliminar {
+  background-color: white;
+  border: 2px solid #000;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.btn-eliminar:hover {
+  background-color: #000;
+  color: white;
+}
+
+.total {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
